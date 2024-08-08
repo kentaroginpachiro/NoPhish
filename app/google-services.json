@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "417194578820",
+    "firebase_url": "https://nophish1-2852a-default-rtdb.firebaseio.com",
+    "project_id": "nophish1-2852a",
+    "storage_bucket": "nophish1-2852a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417194578820:android:3751e20c1889aede2483d1",
+        "android_client_info": {
+          "package_name": "com.example.nophish_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417194578820-j7esjd3l591ufjclnl2n1jug0avb6rs2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nophish_1",
+            "certificate_hash": "2d80b1b1c897735c684545ee58f18111eed63487"
+          }
+        },
+        {
+          "client_id": "417194578820-gak0btlna90haqcr05rufijunui9v84g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBptEyolgwL4nCC14BwWxzDrcdO34pTAZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417194578820-gak0btlna90haqcr05rufijunui9v84g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

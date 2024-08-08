@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notification"
+    android:background="@drawable/page">
+
+    <ImageView
+        android:id="@+id/mainpagelogo"
+        android:layout_width="104dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="148dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo" />
+
+
+    <ImageView
+        android:id="@+id/restartlogo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="18dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/estore" />
+
+    <ListView
+        android:id="@+id/list3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_above="@+id/homebtn2"
+        android:scrollbars="vertical"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="2dp" />
+
+
+    <Button
+        android:id="@+id/homebtn2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="back to homepage"
+        android:backgroundTint="#000000"
+        android:alpha="0.7" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+package com.example.nophish_1;
+
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class user_dialog extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_user_dialog);
+    }
+}
